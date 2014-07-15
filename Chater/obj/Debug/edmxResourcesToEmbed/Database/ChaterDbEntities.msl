@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChaterDbModelStoreContainer" CdmEntityContainer="ChaterDbEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ChaterDbModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="NrClients" ColumnName="NrClients" />
+          <ScalarProperty Name="HashSession" ColumnName="HashSession" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
